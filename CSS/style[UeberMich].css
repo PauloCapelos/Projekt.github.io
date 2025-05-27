@@ -76,10 +76,10 @@ main{
     display: grid;
 }
 .PauloRicardo{
-display: grid;
+    display: grid;
 }
 .Freizeitpark{
-display: grid;
+    display: grid;
 }
 .Bild1{
     justify-self: center;
@@ -106,6 +106,7 @@ display: grid;
     margin-right: 10px;
     padding: 20px;
     z-index: 1;
+    text-align: center;
 }
 .FamilienBilderVideos{
     grid-column: 1 / span 3;
