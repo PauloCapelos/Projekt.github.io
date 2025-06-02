@@ -7,6 +7,7 @@ html, body{
     height: 100%;
     width: 100%;
 }
+
 .container{
     display: grid;
     grid-template-columns: 17% 1fr 1fr 1fr;
@@ -15,6 +16,7 @@ html, body{
     width: 100%;
     height: 100%;
 }
+
 nav{
     display: flex;
     flex-direction: column;
@@ -26,16 +28,19 @@ nav{
     text-align: left;
     grid-row: 1 / span 6;
 }
+
 .title{
     color: rgb(175, 175, 175);
     font-size: 18px;
 }
+
 .navtext, a{
     color: white;
     padding-left: 20px;
     text-decoration: none;
     font-size: 18px;
 }
+
 .NavSVG{
     padding: 20px;
     height: 60%;
@@ -44,33 +49,120 @@ nav{
     justify-self: end;
     padding-bottom: 0px;
 }
+
 header{
     background-color: rgba(96, 15, 1, 1);
     grid-row: 1 /span 1;
     grid-column: 2 / span 3;
     text-align: right;
 }
+
 .HeaderSVG{
     height: 70%;
     padding: 5px;
 }
+
 main{
     background-color: rgba(217, 217, 217, 1);
     grid-row: 2 / span 1;
     grid-column: 2 /span 3;
 }
+
 .MainGrid{
     display: grid;
-    grid-template-rows: 10% 1fr 10% 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10% 5% 5% 10% 5% 10% 5% 1fr 10% 10%;
+    grid-template-columns: 5% 15% 15% 15% 15% 35%;
+}
+
+.E-Mail_Text{
+    grid-column: 2 / span 4;
+    grid-row: 2;
+}
+.Name{
+    grid-column: 2 / span 5;
+    grid-row: 3;
+}
+.Nachname{
+    grid-column: 4 / span 5;
+    grid-row: 3;
+}
+.Feld.FName{
+    display: grid;
+    grid-column: 2 / span 2;
+    grid-row: 4;
+    border-radius: 5px;
+    margin: 2%;
+    padding-left: 2%;
+    margin-left: 0px;
+    background-color: white;
+}
+.Feld.FNachname{
+    display: grid;
+    grid-column: 4 / span 2;
+    grid-row: 4;
+    margin: 2%;
+    padding-left: 2%;
+    margin-left: 0px;    
+    border-radius: 5px;
+    background-color: white;
+}
+.Nachricht{
+    grid-row: 7;
+    grid-column: 2;
+}
+.Feld.FNachricht{
+    grid-row: 8;
+    grid-column: 2 / span 4;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 0px;
+    padding-left: 2%;
+    background-color: white;
+}
+.Übertitel.Socials{
+    grid-column: 2 / span 4;
+    grid-row: 9;
 }
 .Übertitel{
-    grid-column: 1 / span 3;
+    grid-column: 2 / span 3;
     font-size: 25px;
     color: rgba(96, 15, 1, 1);
     font-weight: bold;
-    margin-left: 5%;
-    margin-top: 1%;
+    margin-top: 5px;
+}
+.E-Mail{
+    grid-column: 2;
+    grid-row: 5;
+}
+.Feld.FE-mail{
+    grid-column: 2 / span 4;
+    grid-row: 6;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 0px;
+    padding-left: 2%;
+    background-color: white;
+}
+.Image{
+    height: 80%;
+    justify-self: center;
+    align-self: center;
+}
+.TikTok{
+    grid-column: 2;
+    grid-row: 10;
+}
+.WhatsApp{
+    grid-column: 3;
+    grid-row: 10;
+}
+.Twitter{
+    grid-column: 4;
+    grid-row: 10;
+}
+.Instagram{
+    grid-column: 5;
+    grid-row: 10;
 }
 .MainSVG{
     height: 85%;
@@ -78,6 +170,7 @@ main{
     right: 5%;
     z-index: 0;
 }
+
 footer{
     background-color: rgba(170, 45, 0, 1);
     grid-row: 3 / span 1;

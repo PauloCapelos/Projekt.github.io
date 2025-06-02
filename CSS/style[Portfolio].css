@@ -61,16 +61,88 @@ main{
 }
 .MainGrid{
     display: grid;
-    grid-template-rows: 10% 1fr 10% 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10% 10% 1fr 10% 1fr;
+    grid-template-columns: 5% 1fr 1fr;
+}
+.Image{
+    height: 90%;
+    width: 95%;
+    align-self: center;
+    justify-self: center;
 }
 .Übertitel{
-    grid-column: 1 / span 3;
     font-size: 25px;
     color: rgba(96, 15, 1, 1);
     font-weight: bold;
     margin-left: 5%;
     margin-top: 1%;
+}
+.Übertitel.MeinPortfolio{
+    grid-column: 2;
+    grid-row: 1;
+}
+.Untertitel{
+    font-size: 15px;
+    color: rgba(170, 45, 0, 1);
+    font-weight: bold;
+    margin-top: 1%;
+}
+.Untertitel.Workshop{
+    grid-column: 2;
+    grid-row: 2;
+}
+.Untertitel.Elektronik{
+    grid-column: 2;
+    grid-row: 4;
+}
+.Hintergrund{
+    display: grid;
+    background-color: black;
+    border-radius: 10px;
+    max-width: 90%;
+    height: 100px;
+    z-index: 2;
+}
+
+.Hintergrund.Textfeld1{
+    grid-column: 2;
+    grid-row: 3;
+    max-width: 90%;
+    height: 80%;
+}
+
+.Image.Bild1{
+    max-width: 90%;
+    height: 80%;
+    align-self: center;
+    justify-self: center;
+}
+
+.Textfeld.Textfeld1{
+    max-height: 75%;
+}
+
+.Hintergrund.Bild1{
+    grid-column: 3;
+    grid-row: 3;
+    max-width: 90%;
+    height: 80%;
+}
+
+.Hintergrund.Bild2{
+    grid-column: 2;
+    grid-row: 5;
+    max-width: 90%;
+    height: auto;
+}
+.Textfeld{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    z-index: 1;
+    text-align: center;
 }
 .MainSVG{
     height: 85%;

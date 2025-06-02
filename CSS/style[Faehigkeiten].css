@@ -68,11 +68,11 @@ main{
     font-size: 25px;
     color: rgba(96, 15, 1, 1);
     font-weight: bold;
-    margin-top: 1%;
+    margin-top: 5px;
 }
 .Skill{
     align-self: center;
-    justify-self: left;
+    justify-self: center;
     height: 50px;
 }
 .Fähigkeiten{
