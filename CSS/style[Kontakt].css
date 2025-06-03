@@ -212,6 +212,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr auto;
+    overflow-y: auto;
   }
 
   nav {
@@ -270,7 +271,7 @@ footer{
   .MainGrid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5% 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 15px;
   }
 
@@ -339,11 +340,13 @@ footer{
     width: 300px;
   }
 
-  .Image{
-    display: none;
+  footer {
+  grid-column: 1;
+  grid-row: 4;
+  text-align: center;
   }
 
-  footer {
+  .Image{
     display: none;
   }
 }
