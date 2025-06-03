@@ -1,2 +1,18 @@
 # Projekt.github.io
-M293
+
+Über mich
+-Ausgelassen: Ränder bei den Bildern
+-Grund: Mir wurde von Kollegen gesagt, dass es ohne Ränder optisch besser aussieht
+
+Fähigkeite
+-Normal
+
+Portfolio
+-Ausgelassen: Projekt AquaPlant
+-Grund: Aufgrund des Problems mit dem MainSVG im Hintergrund, musste ich diese Seite verkürzen, sodass alles auf einem Bildschirm Platz hat.
+
+Kontakt
+-Hinzugefügt: Beim Feld Nachricht steht jetzt, "Schreibe eine Nachricht", damit es bei allen Feldern ein Beispiel hat.
+
+Allgemeine Bemerkung
+-Da mein Bildschirm klein ist und ich bei Figma einen zu grossen Desktop ausgesucht habe, musste ich bei all meinen Seiten die grössen und Abstände anpassen, damit alles auf einer Seite Platz hat

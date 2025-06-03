@@ -74,6 +74,20 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.Algarve_Video {
+    width: 80%; 
+    height: auto;
+    grid-row: 4;
+    grid-column: 3; 
+    z-index: 2;
+}
+
+.Algarve{
+    justify-self: center;
+    align-self: center;
+    z-index: 1;
+}
+
 .Übertitel{
     grid-column: 1 / span 3;
     font-size: 25px;
@@ -126,9 +140,7 @@ main{
     text-align: center;
 }
 
-.FamilienBilderVideos{
-    grid-column: 1 / span 3;
-}
+
 
 .MainSVG{
     height: 85%;
