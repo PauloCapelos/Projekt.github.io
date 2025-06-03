@@ -1,194 +1,180 @@
-html, body{
-    padding: 0px;
-    margin: 0px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    box-sizing: border-box;
-    background-color: rgb(255,255,255);
-    height: 100%;
-    width: 100%;
+html, body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  box-sizing: border-box;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: 17% 1fr 1fr 1fr;
-    grid-template-rows: 10% 1fr 5%;
-    font-family: sans-serif;
-    width: 100%;
-    height: 100%;
+.container {
+  display: grid;
+  grid-template-columns: 17% 1fr 1fr 1fr;
+  grid-template-rows: 10% 1fr 5%;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
-nav{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(54, 54, 54);
-    margin: 0px;
-    padding: 20px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    text-align: left;
-    grid-row: 1 / span 6;
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #363636;
+  padding: 20px 20px 0 20px;
+  text-align: left;
+  grid-row: 1 / span 6;
 }
 
-.title{
-    color: rgb(175, 175, 175);
-    font-size: 18px;
+.title {
+  color: #afafaf;
+  font-size: 18px;
 }
 
-.navtext, a{
-    color: white;
-    padding-left: 20px;
-    text-decoration: none;
-    font-size: 18px;
+.navtext, a {
+  color: white;
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 18px;
 }
 
-.NavSVG{
-    padding: 20px;
-    height: 60%;
-    margin-top: auto;
-    align-self:center;
-    justify-self: end;
-    padding-bottom: 0px;
+.NavSVG {
+  padding: 20px 20px 0 20px;
+  height: 60%;
+  margin-top: auto;
+  align-self: center;
+  justify-self: end;
 }
 
-header{
-    background-color: rgba(96, 15, 1, 1);
-    grid-row: 1 /span 1;
-    grid-column: 2 / span 3;
-    text-align: right;
+header {
+  background-color: rgba(96, 15, 1, 1);
+  grid-row: 1;
+  grid-column: 2 / span 3;
+  text-align: right;
 }
 
-.HeaderSVG{
-    height: 70%;
-    padding: 5px;
+.HeaderSVG {
+  height: 70%;
+  padding: 5px;
 }
 
-main{
-    background-color: rgba(217, 217, 217, 1);
-    grid-row: 2 / span 1;
-    grid-column: 2 /span 3;
+main {
+  background-color: rgba(217, 217, 217, 1);
+  grid-row: 2;
+  grid-column: 2 / span 3;
 }
 
-.MainGrid{
-    display: grid;
-    grid-template-rows: 10% 5% 5% 10% 5% 10% 5% 1fr 10% 10%;
-    grid-template-columns: 5% 15% 15% 15% 15% 35%;
+.MainGrid {
+  display: grid;
+  grid-template-rows: 10% 5% 5% 10% 5% 10% 5% 1fr 10% 10%;
+  grid-template-columns: 5% 15% 15% 15% 15% 35%;
 }
 
-.Feld{
-    color: rgba(139, 139, 139, 1);
-    font-style: italic;
+.Feld {
+  color: #8b8b8b;
+  font-style: italic;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 0;
+  padding-left: 2%;
 }
 
-.Mail{
-    color: black;
-     text-decoration: underline;
-
+.Mail {
+  color: black;
+  text-decoration: underline;
 }
 
-.E-Mail_Text{
-    grid-column: 2 / span 4;
-    grid-row: 2;
+.E-Mail_Text {
+  grid-column: 2 / span 4; grid-row: 2; 
 }
-.Name{
-    grid-column: 2 / span 5;
-    grid-row: 3;
+.Name { 
+  grid-column: 2 / span 5; grid-row: 3; 
 }
-.Nachname{
-    grid-column: 4 / span 5;
-    grid-row: 3;
+.Nachname { 
+  grid-column: 4 / span 5; grid-row: 3; 
 }
-.Feld.FName{
-    display: grid;
-    grid-column: 2 / span 2;
-    grid-row: 4;
-    border-radius: 5px;
-    margin: 2%;
-    padding-left: 2%;
-    margin-left: 0px;
-    background-color: white;
+.E-Mail { 
+  grid-column: 2; grid-row: 5;
 }
-.Feld.FNachname{
-    display: grid;
-    grid-column: 4 / span 2;
-    grid-row: 4;
-    margin: 2%;
-    padding-left: 2%;
-    margin-left: 0px;    
-    border-radius: 5px;
-    background-color: white;
+.Nachricht { 
+  grid-column: 2; grid-row: 7; 
 }
-.Nachricht{
-    grid-row: 7;
-    grid-column: 2;
+.Übertitel.Socials { 
+  grid-column: 2 / span 4; grid-row: 9; 
+
 }
-.Feld.FNachricht{
-    grid-row: 8;
-    grid-column: 2 / span 4;
-    border-radius: 5px;
-    margin: 5px;
-    margin-left: 0px;
-    padding-left: 2%;
-    background-color: white;
-}
-.Übertitel.Socials{
-    grid-column: 2 / span 4;
-    grid-row: 9;
-}
-.Übertitel{
-    grid-column: 2 / span 3;
-    font-size: 25px;
-    color: rgba(96, 15, 1, 1);
-    font-weight: bold;
-    margin-top: 5px;
-}
-.E-Mail{
-    grid-column: 2;
-    grid-row: 5;
-}
-.Feld.FE-mail{
-    grid-column: 2 / span 4;
-    grid-row: 6;
-    border-radius: 5px;
-    margin: 5px;
-    margin-left: 0px;
-    padding-left: 2%;
-    background-color: white;
-}
-.Image{
-    height: 80%;
-    justify-self: center;
-    align-self: center;
-}
-.TikTok{
-    grid-column: 2;
-    grid-row: 10;
-}
-.WhatsApp{
-    grid-column: 3;
-    grid-row: 10;
-}
-.Twitter{
-    grid-column: 4;
-    grid-row: 10;
-}
-.Instagram{
-    grid-column: 5;
-    grid-row: 10;
-}
-.MainSVG{
-    height: 85%;
-    position: absolute;
-    right: 5%;
-    z-index: 0;
+.Übertitel {
+  grid-column: 2 / span 3;
+  font-size: 25px;
+  color: rgba(96, 15, 1, 1);
+  font-weight: bold;
+  margin-top: 5px;
 }
 
-footer{
-    background-color: rgba(170, 45, 0, 1);
-    grid-row: 3 / span 1;
-    grid-column: 2 /span 3;
-    padding: 5px;
-    text-align: start;
+.Feld.FName,
+.Feld.FNachname,
+.Feld.FE-mail,
+.Feld.FNachricht {
+  display: grid;
+}
+
+.Feld.FName {
+  grid-column: 2 / span 2;
+  grid-row: 4;
+  margin: 2%;
+}
+
+.Feld.FNachname {
+  grid-column: 4 / span 2;
+  grid-row: 4;
+  margin: 2%;
+}
+
+.Feld.FE-mail {
+  grid-column: 2 / span 4;
+  grid-row: 6;
+  margin: 5px;
+}
+
+.Feld.FNachricht {
+  grid-column: 2 / span 4;
+  grid-row: 8;
+  margin: 5px;
+}
+
+.Image {
+  height: 80%;
+  justify-self: center;
+  align-self: center;
+}
+
+.TikTok { 
+  grid-column: 2; grid-row: 10; 
+}
+.WhatsApp { 
+  grid-column: 3; grid-row: 10; 
+}
+.Twitter { 
+  grid-column: 4; grid-row: 10; 
+}
+.Instagram { 
+  grid-column: 5; grid-row: 10; 
+}
+
+.MainSVG {
+  height: 85%;
+  position: absolute;
+  right: 5%;
+  z-index: 0;
+}
+
+footer {
+  background-color: rgba(170, 45, 0, 1);
+  grid-row: 3;
+  grid-column: 2 / span 3;
+  padding: 5px;
+  text-align: start;
 }
 
 @media screen and (max-width: 1024px) {
@@ -209,7 +195,6 @@ footer{
 
 @media screen and (max-width: 768px) {
   .container {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr auto;
     overflow-y: auto;
@@ -244,11 +229,11 @@ footer{
     padding: 5px;
   }
 
-  .title {
-    display: none;
-  }
-
-  .NavSVG {
+  .title,.NavSVG, 
+  .MainSVG,.E-Mail_Text, 
+  .Name,.Nachname, 
+  .E-Mail,.Nachricht, 
+  .Image {
     display: none;
   }
 
@@ -269,84 +254,40 @@ footer{
   }
 
   .MainGrid {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 5% 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 15px;
   }
 
-  .Übertitel.Nr1 {
+  .Übertitel.Nr1,
+  .Übertitel.Socials {
     grid-column: 1;
     text-align: center;
     font-size: 22px;
   }
 
-  .Übertitel.Socials{
-    grid-column: 1;
+  .Übertitel.Socials {
     grid-row: 2;
-    text-align: center;
-    font-size: 22px;
-    display: none;
-  }
-  .MainSVG {
     display: none;
   }
 
-  .E-Mail_Text{
-    display: none;
-  }
-
-  .Name{
-    display: none;
-  }
-
-  .Nachname{
-    display: none;
-  }
-
-  .E-Mail{
-    display: none;
-  }
-
-  .Nachricht{
-    display: none;
-  }
-
-  .Feld.FName{
+  .Feld.FName,
+  .Feld.FNachname,
+  .Feld.FE-mail,
+  .Feld.FNachricht {
     grid-column: 1;
-    grid-row: 2;
     justify-self: center;
     width: 300px;
   }
 
-  .Feld.FNachname{
-    grid-column: 1;
-    grid-row: 3;
-    justify-self: center;
-    width: 300px;
-  }
-
-  .Feld.FE-mail{
-    grid-column: 1;
-    grid-row: 4;
-    justify-self: center;
-    width: 300px;
-  }
-
-  .Feld.Feld.FNachricht{
-    grid-column: 1;
-    grid-row: 5 / span 2;
-    justify-self: center;
-    width: 300px;
-  }
+  .Feld.FName { grid-row: 2; }
+  .Feld.FNachname { grid-row: 3; }
+  .Feld.FE-mail { grid-row: 4; }
+  .Feld.FNachricht { grid-row: 5 / span 2; }
 
   footer {
-  grid-column: 1;
-  grid-row: 4;
-  text-align: center;
-  }
-
-  .Image{
-    display: none;
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
   }
 }

@@ -3,6 +3,7 @@
 Über mich
 -Ausgelassen: Ränder bei den Bildern
 -Grund: Mir wurde von Kollegen gesagt, dass es ohne Ränder optisch besser aussieht
+-Hinzugefügt: Mein Vater wollte auf dem Bild sein, somit habe ich es mit dem anderen ausgetauscht
 
 Fähigkeite
 -Normal
@@ -18,5 +19,4 @@ Allgemeine Bemerkung
 -Da mein Bildschirm klein ist und ich bei Figma einen zu grossen Desktop ausgesucht habe, musste ich bei all meinen Seiten die grössen und Abstände anpassen, damit alles auf einer Seite Platz hat
 
 Handy Format
-
 - Ab und zu wurden Inhalte ausgelassen, damit nur das nötigste drauf ist
